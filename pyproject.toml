@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mini-sql-engine"
+version = "0.1.0"
+description = "A small SQL engine (hand-written lexer/parser/planner/executor) that runs SELECT queries over in-memory CSV tables."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Arnav Chawla" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "pyflakes>=3.1"]
+
+[project.scripts]
+sqlmini = "sqlmini.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["sqlmini*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
