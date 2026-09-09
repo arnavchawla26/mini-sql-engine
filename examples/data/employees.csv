@@ -1,0 +1,13 @@
+id,name,department_id,salary,is_manager
+1,Ava Chen,1,142000,true
+2,Ben Ortiz,1,118000,false
+3,Carla Novak,1,109500,false
+4,Deepak Rao,2,97000,true
+5,Ella Fischer,2,88000,false
+6,Farhan Iqbal,2,91500,false
+7,Grace Kim,3,102000,true
+8,Hiro Tanaka,3,86000,false
+9,Ines Duarte,4,74000,true
+10,Jonas Weber,4,68000,false
+11,Kira Petrova,,72000,false
+12,Liam O'Sullivan,1,131000,false
